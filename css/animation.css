@@ -1,0 +1,52 @@
+@keyframes blink {
+  25% {
+    color: #2edfe9;
+    text-shadow:
+      1px 1px 10px rgba(46, 223, 233, 0.4),
+      -1px -1px 10px rgba(46, 223, 233, 0.4);
+  }
+
+  50% {
+    color: #2edfe9;
+    text-shadow:
+      1px 1px 10px rgba(46, 223, 233, 0.8),
+      -1px -1px 10px rgba(46, 223, 233, 0.8);
+  }
+
+  75% {
+    color: #2edfe9;
+    text-shadow:
+      1px 1px 10px rgba(46, 223, 233, 0.4),
+      -1px -1px 10px rgba(46, 223, 233, 0.4);
+  }
+}
+
+.blinking {
+  animation: blink 3s ease-in-out infinite;
+}
+
+@keyframes img-blink {
+  25% {
+    box-shadow:
+      3px 3px 10px rgba(46, 223, 233, 0.4),
+      -3px -3px 10px rgba(46, 223, 233, 0.4),
+      3px -3px 10px rgba(46, 223, 233, 0.4),
+      -3px 3px 10px rgba(46, 223, 233, 0.4);
+  }
+
+  50% {
+    box-shadow:
+      3px 3px 10px rgba(46, 223, 233, 0.8),
+      -3px -3px 10px rgba(46, 223, 233, 0.8),
+      3px -3px 10px rgba(46, 223, 233, 0.4),
+      -3px 3px 10px rgba(46, 223, 233, 0.4);
+  }
+
+  75% {
+    box-shadow:
+      3px 3px 10px rgba(46, 223, 233, 0.4),
+      3px 3px 10px rgba(46, 223, 233, 0.4),
+      3px -3px 10px rgba(46, 223, 233, 0.4),
+      -3px 3px 10px rgba(46, 223, 233, 0.4);
+  }
+}
